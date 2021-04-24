@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OTPViewTheme">
+        <attr name="viewStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="OTPView">
+        <attr name="viewType" format="enum">
+            <enum name="border" value="1" />
+            <enum name="underline" value="2" />
+        </attr>
+
+        <attr name="viewSpace" format="dimension" />
+        <attr name="viewWidth" format="dimension" />
+        <attr name="viewHeight" format="dimension" />
+        <attr name="viewStrokeWidth" format="dimension" />
+        <attr name="viewStrokeRadius" format="dimension" />
+        <attr name="viewStrokeColor" format="reference|color" />
+        <attr name="viewFillColor" format="reference|color" />
+        <attr name="viewCount" format="integer" />
+    </declare-styleable>
+
+</resources>
